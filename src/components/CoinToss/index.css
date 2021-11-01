@@ -1,0 +1,59 @@
+.coin-toss-bcg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+}
+
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.head-toss-main-heading {
+  color: #a35200;
+  font-weight: bold;
+  font-size: 28px;
+}
+.head-tail-title {
+  font-size: 21px;
+  color: #334155;
+  font-weight: bold;
+}
+
+.head-tails-image {
+  width: 30%;
+}
+
+.toss-coin-button {
+  border: none;
+  background-color: #f9d423;
+  width: 100px;
+  height: 35px;
+  color: #a35200;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.head-tails-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .head-tails-image {
+    width: 25%;
+  }
+}
